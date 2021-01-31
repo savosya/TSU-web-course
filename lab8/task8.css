@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.line {
+  display: flex;
+}
+
+.up,
+.down,
+.delete,
+.add,
+.save {
+  padding: 1px;
+}
+.result {
+  font-family: monospace;
+  min-height: 15px;
+  width: 220px;
+  border: 2px solid cornflowerblue;
+  margin: 0px 5px;
+}

@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  -webkit-user-select: none;
+  background-color: black;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.curtain {
+  display: flex;
+  justify-content: center;
+}
+.curtain img {
+  position: absolute;
+  z-index: 30;
+  bottom: 0;
+  height: 115vh;
+  transition: 0.2s;
+}
+.curtain img:hover {
+  transform: translateY(-6%);
+  transition: 0.2s;
+}
+.lamp {
+  position: relative;
+  justify-content: center;
+  margin: 3vh auto 0;
+  width: 70px;
+  height: 190.34px;
+}
+.stand {
+  z-index: 2;
+  position: absolute;
+  width: 70px;
+}
+.handle {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  transition: 0.2s;
+}
+.handle_down {
+  top: 20px;
+  transition: 0.15s;
+}
+.handle_control {
+  position: absolute;
+  z-index: 25;
+  top: 30px;
+  left: 10px;
+  width: 18px;
+  height: 50px;
+}
+.visible {
+  display: flex;
+  visibility: hidden;
+}
+.visible-1 {
+  visibility: visible;
+  animation: light_on 0.3s;
+  animation: light_off 0.3s;
+}
+@keyframes light_on {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes light_off {
+  0% {
+    visibility: visible;
+    transition: 0.3s;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+.triangle {
+  position: relative;
+  max-width: 820px;
+  height: 602px;
+  top: -152px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.light {
+  z-index: 5;
+  position: absolute;
+  border-radius: 1%;
+  top: -50px;
+  border-left: 410px solid transparent;
+  border-right: 410px solid transparent;
+  border-bottom: 650px solid yellow;
+  opacity: 0;
+  transition: 0.3s;
+}
+.light_on {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.wizard_box {
+  position: absolute;
+  display: flex;
+  bottom: 4vh;
+  left: 200px;
+  max-width: 180px;
+  max-height: 163.96px;
+  margin-right: 10px;
+}
+.hat_box {
+  position: absolute;
+  display: flex;
+  bottom: 4vh;
+  right: 200px;
+  max-width: 120px;
+  max-height: 100px;
+  z-index: 3;
+}
+.hat_box-1 {
+  z-index: 25;
+  position: absolute;
+  display: flex;
+  bottom: 4vh;
+  right: 200px;
+  width: 120px;
+  height: 100px;
+}
+.jab_box {
+  position: absolute;
+  display: flex;
+  bottom: 27vh;
+  right: 240px;
+  max-width: 50px;
+  max-height: 70px;
+  z-index: 2;
+}
+.animal_ishere {
+  animation: _ishere 0.3s linear 0s 1;
+}
+.animal_isnothere {
+  animation: _isnothere 0.3s linear 0s 1;
+}
+.nvs {
+  visibility: hidden;
+}
+.animal_box-1 {
+  z-index: 25;
+  position: absolute;
+  display: flex;
+  bottom: 27vh;
+  right: 230px;
+  width: 70px;
+  height: 70px;
+}
+.bird_box {
+  position: absolute;
+  display: flex;
+  bottom: 27vh;
+  right: 240px;
+  max-width: 50px;
+  max-height: 50px;
+  z-index: 2;
+}
+@keyframes _ishere {
+  0% {
+    transform: rotate(0deg);
+    bottom: 4vh;
+  }
+  100% {
+    transform: rotate(720deg);
+    bottom: 27vh;
+  }
+}
+@keyframes _isnothere {
+  0% {
+    transform: rotate(720deg);
+    bottom: 27vh;
+  }
+  100% {
+    transform: rotate(0deg);
+    bottom: 4vh;
+  }
+}
