@@ -1,0 +1,43 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.all{
+  width: 600px;
+  margin: auto;
+}
+.top{
+  border: 1px solid black;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  color:white;
+  background-color: red;
+}
+.left, .middle, .right{
+  border: 1px solid black;
+  width: 33.333%;
+  padding:6px;
+  cursor: pointer;
+}
+.cat{
+  background-color: blue;
+  width: 50%;
+}
+.dog{
+  background-color: green;
+  width: 50%;
+}
+.cat img, .dog img{
+  height: 240px;
+}
+.main-box{
+  display: flex;
+  height: 300px;
+}
+img{
+  width: 90%  ;
+  margin: 10px auto 10px 15px;
+}
