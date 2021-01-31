@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul {
+  background-color: #FFE4C4;
+  padding: 18px 0px 18px 40px;
+  width: 150px;
+}
+table{
+  border-spacing: 0px;
+  width:auto;
+  height:auto;
+  background-color: #00FFFF;
+}
+.blue{
+  background-color: #00FFFF;
+  height: auto;
+  width:auto;
+  float: left;
+}
+.par{
+  height: auto;
+  background-color: #A9A9A9;
+}
+footer{
+  background-color: #32CD32;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+}

@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.turpis img {
+  float:right;
+}
+.turpis{
+  background-color: #00FFFF;
+  border: 1px solid green;
+  height: 265px;
+  margin: 10px;
+}

@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clear{
+  background-color: #FFE4C4;
+  clear: both;
+}
+.floatbox{
+  background-color: #7FFFD4;
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin: 20px;
+}

@@ -1,0 +1,47 @@
+body{
+  padding: 0px 0px 0px 0px;
+  color: white;
+}
+.purple{
+  background-color: #8A2BE2;
+  max-width: 150px;
+  height: 100px;
+  position: static;
+}
+.red{
+  background-color: #8B0000;
+  max-width: 150px;
+  height: 100px;
+  position: relative;
+}
+.orange{
+  background-color: #CD853F;
+  max-width: 150px;
+  height: 100px;
+  left: 25px;
+  bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.pink{
+  background-color: #CD5C5C;
+  max-width: 538px;
+  position: relative;
+  height: 350px;
+}
+.purpler{
+  background-color: #4B0082;
+  right: 0;
+  bottom: 70px;
+  width: 300px;
+  height: 180px;
+  position:absolute;
+}
+.green{
+  background-color: #228B22;
+  position: fixed;
+  height: 100px;
+  width: 97px;
+  right: 0;
+  bottom:0;
+}

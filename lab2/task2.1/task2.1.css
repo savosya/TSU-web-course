@@ -1,0 +1,40 @@
+header{
+  background: #EAEAEA;
+  height: 65px;
+}
+h2{
+  padding: 2px 0 0 8px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  margin-top: 0px;
+  clear: both;
+}
+span{
+  color: red;
+  font-style:italic;
+}
+
+a{
+  color: yellow;
+}
+
+#left {
+  background-color: #C8FC98;
+  width: 200px;
+  float:left;
+  padding: 1px 7px 7px 7px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+#content{
+  margin-top: 0px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
