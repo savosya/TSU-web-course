@@ -1,0 +1,14 @@
+*{
+  margin: 10px auto;
+  color:white;
+}
+.green{
+  background-color: #008000;
+  max-width: 500px;
+}
+.blue{
+  background-color: #0000FF;
+  max-width: 500px;
+  padding: 50px;
+  margin-top: 20px;
+}

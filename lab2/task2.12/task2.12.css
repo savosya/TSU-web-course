@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.content{
+  background-color: #00FFFF;
+  border: 1px solid green;
+  border-spacing: 0px;
+}
+
+.nav{
+  background-color: #FFE4C4;
+  float:left;
+  width: 200px;
+  padding: 10px 100px 10px 40px;
+}
+
+.text{
+  margin: 0px 5px 0px 345px;
+  background-color: #A9A9A9;
+}
+
+@media screen and (max-width: 580px) {
+  .text{
+    max-width: 330px;
+    margin: 0px 50px 0px 0px;
+  }
+  .nav{
+    float: none;
+    padding: 10px 0px 10px 40px;
+    max-width: 80px;
+  }
+}

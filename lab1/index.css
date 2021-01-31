@@ -1,0 +1,81 @@
+.body {
+  background-color: blue;
+  color: white;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 1px 24px;
+  font-family: Helvetica;
+
+}
+
+header, footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-family: Courier, monospace;
+}
+
+footer{
+  font-family: Helvetica;
+}
+
+#logo {
+  border: 4px solid white;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px 0px 20px 0px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 17px;
+}
+
+#LoremIpsum {
+  line-height: 1.2;
+  font-size: 14.5px;
+  margin-bottom: 0px;
+}
+
+.tsuru {
+  text-align: center;
+  margin-top: 3px;
+}
+#tsuru{
+  color: red;
+  text-align: center;
+}
+#tsuru:active{
+  color: green;
+}
+
+h2{
+  margin: 0px;
+  word-spacing: 6px;
+}
+.list {
+  margin: 1%;
+}
+.italic, .bold, .thru,{
+  margin: 0.5em;
+}
+.under {
+    margin-bottom: 1.5em;
+}
+
+aside{
+  float:right;
+}
+
+table{
+  width:135px;
+  height:110px;
+  border: 1px solid white;
+  margin-bottom: 7px;
+}
+td {
+  text-align: center;
+  vertical-align: bottom;
+  color: white;
+  border: 1px solid white;
+}

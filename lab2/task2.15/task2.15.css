@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+body{
+  margin: 3px;
+}
+
+footer{
+  background-color: #FAEBD7;
+}
+
+.blocks div {
+  display: inline-block;
+  font-family: "Times New Roman";
+  background-color: #7FFFD4;
+  width: 155px;
+  height: 75px;
+  margin: 15px;
+}
